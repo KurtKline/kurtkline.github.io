@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<? if (data.length != 0) { ?> 
+  <? for (var i = 0; i < data.length; i++) { ?>
+    <div>
+      <?!= EMOJIS.rocket ?><b><a href=<?= data[i][5] ?>><?= data[i][1] ?></a></b><?!= EMOJIS.rocket ?><br><br>
+      <b>Type: </b><?= data[i][3] ?><br>
+      <b>Location: </b><?= data[i][4] ?><br>
+      <b>Sharer: </b><?= data[i][6] ?> (<?= data[i][7] ?>)<br>
+      <b>Timestamp: </b><?= data[i][0].toLocaleString() ?><br>
+      <? if(data[i][8].length != 0) { ?>
+        <br><i>"<?= data[i][8] ?>" -<?= data[i][6] ?></i>
+      <? } ?>
+    </div>
+    <hr class="solid"><br>
+  <? } ?>
+<? } else { ?>
+  <div>
+    There were no shared opportunities in this date range. <?!= EMOJIS.crying ?>
+  </div>
+<? } ?>
+Have a <?!= EMOJIS.fire ?> opportunity to share? Submit it <a href=<?= URLS.oppShare ?>>here</a>.<br>
+<a href=<?= URLS.feedback ?>>Give feedback</a> | <a href=<?= URLS.successStory ?>>Report a success story</a>
+</html>

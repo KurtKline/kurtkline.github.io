@@ -1,0 +1,31 @@
+{
+  "timeZone": "America/New_York",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "SheetLib",
+        "libraryId": "1C2zIsT2g0yXBtnSQf4MjE6HXYhs2lr9nqc25htPj6X9ztPemv819Ob5Y",
+        "version": "0",
+        "developmentMode": true
+      },
+      {
+        "userSymbol": "DateLib",
+        "libraryId": "1aDHO0AeeYiJErAwdEBbgattv7wM0AguUpANZggGvAEVtQ9MPaIf4jkE7",
+        "version": "0",
+        "developmentMode": true
+      },
+      {
+        "userSymbol": "SlackLib",
+        "version": "0",
+        "libraryId": "1iM2miQyBEtct3Wh1XcXMV6uqijfPbNjmXSDYF6xJnTcS8NDCpjqxoaAp",
+        "developmentMode": true
+      }
+    ]
+  },
+  "webapp": {
+    "executeAs": "USER_DEPLOYING",
+    "access": "ANYONE_ANONYMOUS"
+  }
+}
