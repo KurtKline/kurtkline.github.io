@@ -2,8 +2,8 @@
 
 You can use the [editor on GitHub](https://github.com/KurtKline/kurtkline.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Check out [Opportunity Sharing Docs](https://kurtkline.github.io/OpportunitySharingDoc/index.html) 
-Check out [Bat Signal Docs](https://kurtkline.github.io/BatSignalDoc/index.html) 
+Check out [Opportunity Sharing Docs](https://kurtkline.github.io/OpportunitySharingDoc/index.html)  
+Check out [Bat Signal Docs](https://kurtkline.github.io/BatSignalDoc/index.html)  
 Check out [Lib Docs](https://kurtkline.github.io/LibDoc/index.html)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
